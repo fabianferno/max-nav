@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/dumtxt"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:text="MaxNav App is still developing, wait for the app or try the modules below ↓"
+        android:textAlignment="center"
+    />
+
+    <Button
+        android:id="@+id/compassbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dumtxt"
+        android:layout_marginTop="172dp"
+        android:background="#ff2290"
+        android:textColor="#ffffff"
+        android:backgroundTint="#000000"
+        android:text="Compass" />
+
+    <Button
+        android:id="@+id/stepcounterbtn"
+        android:layout_below="@id/compassbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="308dp"
+        android:textColor="#ffffff"
+        android:background="#ff2290"
+        android:text="Step Counter" />
+
+</RelativeLayout>
